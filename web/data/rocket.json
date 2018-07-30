@@ -1,0 +1,15 @@
+{
+        "name": "rocket.jpg",
+        "children": [
+            {
+                "name": "person",
+                "children": [
+                    {"name":"The DNA in a person's body, when uncoiled, can stretch from Pluto to the Sun and back.\n"},
+                    {"name":"A person's sneeze can travel at speeds of about 100 miles per hour! Imagine if your sneeze fueled your movement!\n"},
+                    {"name":"Fleas can jump around 130times their own height. So if a flea were a person six feet high, it can jump 780 feet high just like that. No superpowers needed!\n"},
+                    {"name":"Gravity changes how much the person weighs on a planet. Mars' gravity is lower than earth's, which means if you weigh 200 pounds on earth, you'll weigh just 78 pounds on the red planet.\n"},
+                    {"name":"Famed chemist Glenn Seaborg was the only person who could write his address in chemical elements\n"}
+                ]
+            }
+        ]
+    }

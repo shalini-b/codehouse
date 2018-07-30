@@ -1,68 +1,26 @@
 {
- "name": "image",
- "children": [
-  {
-   "name": "lion",
-   "children": [
-    {"name": "funfact1", "size": 5842},
-    {"name": "funfact2", "size": 10000},
-    {"name": "funfact3", "size": 2000},
-    {"name": "funfact4", "size": 4550}
-    ]
-  },
-  {
-   "name": "fox",
-   "children": [
-    {"name": "funfact1", "size": 5842},
-    {"name": "funfact2", "size": 10000},
-    {"name": "funfact3", "size": 2000},
-    {"name": "funfact4", "size": 4550}
-    ]
-  },
-  {
-   "name": "lake",
-   "children": [
-    {"name": "funfact1", "size": 5842},
-    {"name": "funfact2", "size": 10000},
-    {"name": "funfact3", "size": 2000},
-    {"name": "funfact4", "size": 4550}
-    ]
-  },
-  {
-   "name": "tree",
-   "children": [
-    {"name": "funfact1", "size": 5842},
-    {"name": "funfact2", "size": 10000},
-    {"name": "funfact3", "size": 2000},
-    {"name": "funfact4", "size": 4550}
-    ]
-  },
-  {
-   "name": "sand",
-   "children": [
-    {"name": "funfact1", "size": 5842},
-    {"name": "funfact2", "size": 10000},
-    {"name": "funfact3", "size": 2000},
-    {"name": "funfact4", "size": 4550}
-    ]
-  },
-  {
-   "name": "desert",
-   "children": [
-    {"name": "funfact1", "size": 5842},
-    {"name": "funfact2", "size": 10000},
-    {"name": "funfact3", "size": 2000},
-    {"name": "funfact4", "size": 4550}
-    ]
-  },
-  {
-   "name": "yellow",
-   "children": [
-    {"name": "funfact1", "size": 5842},
-    {"name": "funfact2", "size": 10000},
-    {"name": "funfact3", "size": 2000},
-    {"name": "funfact4", "size": 4550}
-    ]
-  },
- ]
-}
+        "name": "animal_facts.jpeg",
+        "children": [
+            {
+                "name": "animal",
+                "children": [
+                    {"name":"Here\u2019s a strange animal science fact \u2013 lobsters pee from their faces and turtles can breathe through their butts!\n"}
+                ]
+            },
+            {
+                "name": "mammal",
+                "children": [
+                    {"name":"The human brain is over three times as big as the brain of other mammals that are of similar body size.\n"}
+                ]
+            },
+            {
+                "name": "water",
+                "children": [
+                    {"name":"It is the only planet in the solar system containing 21% oxygen in its atmosphere and water on its surface.\n"},
+                    {"name":"Three-fourths of the earth is covered with water. When astronauts first saw the planet from space, they could mostly see water, so they called it the \u2018Blue Planet\u2019.\n"},
+                    {"name":"97% of water on the planet is salty and not usable. 2% is frozen. That leaves us with just 1% of usable water!\n"}
+                ]
+            }
+        ],
+        "image_caption": "A close up of an animal"
+    }

@@ -1,0 +1,21 @@
+{
+        "name": "birds.jpeg",
+        "children": [
+            {
+                "name": "bird",
+                "children": [
+                    {"name":"The Kakapo bird has a strong, musty smell that attracts predators easily. Because of this, the bird has become critically endangered.\n"}
+                ]
+            },
+            {
+                "name": "small",
+                "children": [
+                    {"name":"Did you know a small patch of soil just 1 square metre in area can hold a billion living things.\n"},
+                    {"name":"The inner planets (also known as terrestrial planets) are smaller and made mostly of rock and metal.\n"},
+                    {"name":"The Sun contains 99.86 percent of the Solar System's known mass, with Jupiter and Saturn making up making up most of the rest. The small inner planets which include Mercury, Venus, Earth and Mars make up a very small percentage of the Solar System\u2019s mass.\n"},
+                    {"name":"Did you know the smallest bone in the body is the stirrup, deep inside the ear, which is about the size of a grain of rice.\n"}
+                ]
+            }
+        ],
+        "image_caption": "A small bird sitting on a branch"
+    }

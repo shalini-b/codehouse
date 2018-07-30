@@ -11,11 +11,12 @@
     <title>Heroic Features - Start Bootstrap Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../static/css/heroic-features.css" rel="stylesheet">
+    <link href="../css/heroic-features.css" rel="stylesheet">
     <style>
+      <style>
 
           .node {
             cursor: pointer;
@@ -37,6 +38,7 @@
             stroke-width: 1.5px;
           }
 
+</style>
     </style>
   </head>
 
@@ -45,7 +47,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><img class="card-img-top" id="logo" src="../static/images/logo.png" lt=""></a>
+        <a class="navbar-brand" href="#"><img class="card-img-top" id="logo" src="../images/logo.png" lt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -70,23 +72,21 @@
     <!-- Page Content -->
     <div class="container">
 
+      <!-- Jumbotron Header -->
       <header class="jumbotron my-4">
-        <center><img class="card-img-top" style="height:70%; width:70%;" src="../static/images/stem3.jpg" lt="">
+        <center><img class="card-img-top" style="height:70%; width:70%;" src="../images/stem3.jpg" lt="">
         <!-- <p class="lead">Yes, you read that right! STEM can be fun and we will show you why.<br>Click on any of these images to learn more!</p></center> -->
         <!-- <a href="#" class="btn btn-primary btn-lg">Call to action!</a> -->
       </header>
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Lion Image</li>
+          <li class="breadcrumb-item active" aria-current="page">Laptops and Functions</li>
         </ol>
       </nav>
       <div class = "row">
-        <div id = "first" class ="col-lg-4 col-md-4 col-sm-4 col-xs-6"> <img src="../../img/animal_facts.jpeg" style="margin-top:100px;height:200px;width:340px;" lt=""></div>
+        <div id = "first" class ="col-lg-4 col-md-4 col-sm-4 col-xs-6"> <img src="../../img/laptop.jpeg" style="margin-top:10px;margin-bottom:30px;height:200px;width:340px;" lt=""></div>
         <div id = "js" class ="col-lg-8 col-md-8 col-sm-8 col-xs-6"></div>
-      </div>
-     <!--  <div id="js"> -->
-        
       </div>
     </div>
     <!-- /.container -->
@@ -100,8 +100,8 @@
     </footer>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../static/vendor/jquery/jquery.min.js"></script>
-    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
     <script>
                 
@@ -127,13 +127,19 @@
             .append("g")
               .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-          d3.json("../static/animal_facts.json", function(error, flare) {
-            if (error)
+          d3.json("../data/laptop.json", function(error, flare) {
+            if (error) 
             {
               throw error;
             }
+            for (i in flare):{
+              if i["name"] in "laptop":
+                data = i
+                break
+            }
             console.log("flare");
-            root = flare;
+            root = data;
+            
             root.x0 = height / 2;
             root.y0 = 0;
 
@@ -179,8 +185,7 @@
                 .attr("dy", ".35em")
                 .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
                 .text(function(d) { return d.name; })
-                .style("fill-opacity", 1e-6)
-                .style("font-size", "15px");
+                .style("fill-opacity", 1e-6).style("font-size", "15px");
 
             // Transition nodes to their new position.
             var nodeUpdate = node.transition()

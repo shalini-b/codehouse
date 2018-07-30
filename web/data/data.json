@@ -1,0 +1,125 @@
+{
+    "data":[
+    {
+        "name": "animal_facts.jpeg",
+        "children": [
+            {
+                "name": "animal",
+                "children": [
+                    {"name":"Here\u2019s a strange animal science fact \u2013 lobsters pee from their faces and turtles can breathe through their butts!\n"}
+                ]
+            },
+            {
+                "name": "mammal",
+                "children": [
+                    {"name":"The human brain is over three times as big as the brain of other mammals that are of similar body size.\n"}
+                ]
+            },
+            {
+                "name": "water",
+                "children": [
+                    {"name":"It is the only planet in the solar system containing 21% oxygen in its atmosphere and water on its surface.\n"},
+                    {"name":"Three-fourths of the earth is covered with water. When astronauts first saw the planet from space, they could mostly see water, so they called it the \u2018Blue Planet\u2019.\n"},
+                    {"name":"97% of water on the planet is salty and not usable. 2% is frozen. That leaves us with just 1% of usable water!\n"}
+                ]
+            }
+        ],
+        "image_caption": "A close up of an animal"
+    },
+    {
+        "name": "birds.jpeg",
+        "children": [
+            {
+                "name": "bird",
+                "children": [
+                    {"name":"The Kakapo bird has a strong, musty smell that attracts predators easily. Because of this, the bird has become critically endangered.\n"}
+                ]
+            },
+            {
+                "name": "small",
+                "children": [
+                    {"name":"Did you know a small patch of soil just 1 square metre in area can hold a billion living things.\n"},
+                    {"name":"The inner planets (also known as terrestrial planets) are smaller and made mostly of rock and metal.\n"},
+                    {"name":"The Sun contains 99.86 percent of the Solar System's known mass, with Jupiter and Saturn making up making up most of the rest. The small inner planets which include Mercury, Venus, Earth and Mars make up a very small percentage of the Solar System\u2019s mass.\n"},
+                    {"name":"Did you know the smallest bone in the body is the stirrup, deep inside the ear, which is about the size of a grain of rice.\n"}
+                ]
+            }
+        ],
+        "image_caption": "A small bird sitting on a branch"
+    },
+    {
+        "name": "chemistry.jpeg",
+        "children": [],
+        "image_caption": "A drawing of a face"
+    },
+    {
+        "name": "laptop.jpeg",
+        "children": [
+            {
+                "name": "person",
+                "children": [
+                    {"name":"The DNA in a person\u2019s body, when uncoiled, can stretch from Pluto to the Sun and back.\n"},
+                    {"name":"A person\u2019s sneeze can travel at speeds of about 100 miles per hour! Imagine if your sneeze fueled your movement!\n"},
+                    {"name":"Fleas can jump around 130times their own height. So if a flea were a person six feet high, it can jump 780 feet high just like that. No superpowers needed!\n"},
+                    {"name":"Gravity changes how much the person weighs on a planet. Mars\u2019 gravity is lower than earth\u2019s, which means if you weigh 200 pounds on earth, you\u2019ll weigh just 78 pounds on the red planet.\n"},
+                    {"name":"Famed chemist Glenn Seaborg was the only person who could write his address in chemical elements\n"}
+                ]
+            }
+        ],
+        "image_caption": "A person using a laptop computer"
+    },
+    {
+        "name": "mathkid.jpg",
+        "children": [],
+        "image_caption": "A close up of text on a white background"
+    },
+    {
+        "name": "rocket.jpg",
+        "children": [
+            {
+                "name": "person",
+                "children": [
+                    {"name":"The DNA in a person\u2019s body, when uncoiled, can stretch from Pluto to the Sun and back.\n"},
+                    {"name":"A person\u2019s sneeze can travel at speeds of about 100 miles per hour! Imagine if your sneeze fueled your movement!\n"},
+                    {"name":"Fleas can jump around 130times their own height. So if a flea were a person six feet high, it can jump 780 feet high just like that. No superpowers needed!\n"},
+                    {"name":"Gravity changes how much the person weighs on a planet. Mars\u2019 gravity is lower than earth\u2019s, which means if you weigh 200 pounds on earth, you\u2019ll weigh just 78 pounds on the red planet.\n"},
+                    {"name":"Famed chemist Glenn Seaborg was the only person who could write his address in chemical elements\n"}
+                ]
+            }
+        ],
+        "image_caption": "A young boy holding a sign"
+    },
+    {
+        "name": "solar.jpeg",
+        "children": [],
+        "image_caption": "A group of objects on a table"
+    },
+    {
+        "name": "web.jpeg",
+        "children": [
+            {
+                "name": "cat",
+                "children": [
+                    {"name":"The world\u2019s largest particle accelerator is located in Geneva. It was built with the help of over 10,000 scientists and is located in an underground tunnel.\n"}
+                ]
+            },
+            {
+                "name": "lying",
+                "children": [
+                    {"name":"The surface of the earth is made of tectonic plates that float on a rocky mantle lying between the surface and the core, which makes it vulnerable to earthquakes and volcanic eruptions.\n"}
+                ]
+            },
+            {
+                "name": "computer",
+                "children": [
+                    {"name":"The first computer of the world, the ENIAC, weighed around 27 tonnes and occupied an entire hall.\n"},
+                    {"name":"Your brain is more powerful, more complex and more clever than any computer ever built.\n"},
+                    {"name":"We all know that primes are numbers that can only be divided by themselves and 1 (such as 2,3,5,7, etc). But what would be the highest prime number you can think of? The largest prime number known so far is 257,885,161-1, a 17,425,170 digit number. The new largest-known prime is the third discovered by Curtis Cooper of the University of Central Missouri, who was running Gimps software on 1,000 university computers. It took one of the PCs 39 days of non-stop computing to check it was indeed prime.\n"}
+                ]
+            }
+        ],
+        "image_caption": "A person holding a cat"
+    }
+
+]
+}
