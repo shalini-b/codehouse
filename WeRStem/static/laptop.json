@@ -1,0 +1,37 @@
+{
+    "name": "image",
+    "children": [
+        {
+            "name": "computer",
+            "children": [
+                {
+                    "name": "Your brain is more powerful, more complex and more clever than any computer ever built"
+                },
+                {
+                    "name": "The first actual computer \u201cbug\u201d was a dead moth which was stuck in a computer."
+                },
+                {
+                    "name": "The first computer of the world, the ENIAC, weighed around 27 tonnes and occupied an entire hall"
+                },
+                {
+                    "name": "Only about 10% of the world\u2019s currency is physical money, the rest only exists on computers"
+                }
+            ]
+        },
+        {
+            "name": "person",
+            "children": [
+                {
+                    "name": "Astronauts can grow up to two inches taller in space."
+                },
+                {
+                    "name": "When listening to music, your heartbeat will sync with the rhythm."
+                },
+                {
+                    "name": "Gravity changes how much the person weighs on a planet."
+                }
+            ]
+        }
+    ],
+    "image_caption": "A person using a laptop computer"
+}

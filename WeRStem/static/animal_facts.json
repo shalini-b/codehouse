@@ -1,26 +1,104 @@
 {
-        "name": "animal_facts.jpeg",
-        "children": [
-            {
-                "name": "animal",
-                "children": [
-                    {"name":"Here\u2019s a strange animal science fact \u2013 lobsters pee from their faces and turtles can breathe through their butts!\n"}
-                ]
-            },
-            {
-                "name": "mammal",
-                "children": [
-                    {"name":"The human brain is over three times as big as the brain of other mammals that are of similar body size.\n"}
-                ]
-            },
-            {
-                "name": "water",
-                "children": [
-                    {"name":"It is the only planet in the solar system containing 21% oxygen in its atmosphere and water on its surface.\n"},
-                    {"name":"Three-fourths of the earth is covered with water. When astronauts first saw the planet from space, they could mostly see water, so they called it the \u2018Blue Planet\u2019.\n"},
-                    {"name":"97% of water on the planet is salty and not usable. 2% is frozen. That leaves us with just 1% of usable water!\n"}
-                ]
-            }
-        ],
-        "image_caption": "A close up of an animal"
-    }
+    "name": "image",
+    "children": [
+        {
+            "name": "bird",
+            "children": [
+                {
+                    "name": "Ostriches have the largest eyes of any land animal"
+                },
+                {
+                    "name": "Most hummingbirds weigh less than a nickel."
+                }
+            ]
+        },
+        {
+            "name": "animal",
+            "children": [
+                {
+                    "name": "A snail can sleep for three years"
+                },
+                {
+                    "name": "Slugs have four noses"
+                },
+                {
+                    "name": "A rhinoceros' horn is made of hair"
+                }
+            ]
+        },
+        {
+            "name": "mammal",
+            "children": [
+                {
+                    "name": "The human brain is over three times as big as the brain of other mammals that are of similar body size."
+                },
+                {
+                    "name": "All mammals have hair, even dolphins and whales that live in the ocean"
+                },
+                {
+                    "name": "Koalas sleep the longest of any animal. They sleep 22 hours a day"
+                },
+                {
+                    "name": "Bats are the only mammals that can fly."
+                }
+            ]
+        },
+        {
+            "name": "cat",
+            "children": [
+                {
+                    "name": "Cats knead with their paws when they are happy."
+                },
+                {
+                    "name": "A cat can jump approximately seven times its height"
+                }
+            ]
+        },
+        {
+            "name": "standing",
+            "children": [
+                {
+                    "name": "Standing the majority of the day has been said to increase concentration"
+                },
+                {
+                    "name": "Standing for most of the day has the potential to burn 30,000 more calories in a year"
+                }
+            ]
+        },
+        {
+            "name": "dog",
+            "children": [
+                {
+                    "name": "If your dog\u2019s acting funny, get out the umbrella! Stormy weather is on the way"
+                },
+                {
+                    "name": "Watch that plate of cookies! A Dog\u2019s sense of smell is 10,000 \u2013 100,000 times stronger"
+                },
+                {
+                    "name": "Dalmatian puppies are pure white when they are born and develop their spots as they grow older"
+                },
+                {
+                    "name": "The twitching and paw movements that occur during their sleep are signs that your dog is dreaming"
+                }
+            ]
+        },
+        {
+            "name": "water",
+            "children": [
+                {
+                    "name": "There is the same amount of water on Earth as there was when the Earth was formed"
+                },
+                {
+                    "name": "Somewhere between 70 and 75 percent of the earth's surface is covered with water."
+                },
+                {
+                    "name": "An ice cube takes up about 9% more volume than the water used to make it."
+                },
+                {
+                    "name": "Unlike many substances, water expands as it freezes"
+                }
+            ]
+        }
+    ],
+    "image_caption": "A close up of an animal"
+}

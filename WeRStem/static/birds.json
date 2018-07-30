@@ -1,0 +1,53 @@
+{
+    "name": "image",
+    "children": [
+        {
+            "name": "standing",
+            "children": [
+                {
+                    "name": "Standing the majority of the day has been said to increase concentration"
+                },
+                {
+                    "name": "Standing for most of the day has the potential to burn 30,000 more calories in a year"
+                }
+            ]
+        },
+        {
+            "name": "flower",
+            "children": [
+                {
+                    "name": "Sunflowers move throughout the day in response to the movement of the sun from east to west."
+                },
+                {
+                    "name": "Moon flowers bloom only at night, closing during the day."
+                },
+                {
+                    "name": "The juice from bluebell flowers was used historically to make glue."
+                }
+            ]
+        },
+        {
+            "name": "bird",
+            "children": [
+                {
+                    "name": "Ostriches have the largest eyes of any land animal"
+                },
+                {
+                    "name": "Most hummingbirds weigh less than a nickel."
+                }
+            ]
+        },
+        {
+            "name": "food",
+            "children": [
+                {
+                    "name": "Arachibutyrophobia is the fear of peanut butter sticking to the roof of your mouth."
+                },
+                {
+                    "name": "The tea bag was created by accident, as tea bags were originally sent as samples."
+                }
+            ]
+        }
+    ],
+    "image_caption": "A small bird sitting on a branch"
+}

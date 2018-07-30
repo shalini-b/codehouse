@@ -1,0 +1,31 @@
+{
+    "name": "image",
+    "children": [
+        {
+            "name": "periodic_table",
+            "children": [
+                {
+                    "name": "The only letter that doesn\u2019t appear on the periodic table is J."
+                }
+            ]
+        },
+        {
+            "name": "water",
+            "children": [
+                {
+                    "name": "There is the same amount of water on Earth as there was when the Earth was formed"
+                },
+                {
+                    "name": "Somewhere between 70 and 75 percent of the earth's surface is covered with water."
+                },
+                {
+                    "name": "An ice cube takes up about 9% more volume than the water used to make it."
+                },
+                {
+                    "name": "Unlike many substances, water expands as it freezes"
+                }
+            ]
+        }
+    ],
+    "image_caption": "A drawing of a face"
+}

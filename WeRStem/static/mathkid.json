@@ -1,0 +1,34 @@
+{
+    "name": "image",
+    "children": [
+        {
+            "name": "mathematics",
+            "children": [
+                {
+                    "name": "The Fibonacci sequence is encoded in the number 1/89"
+                },
+                {
+                    "name": "If you shuffle a pack of cards properly, chances are that exact order has never been seen before in the whole history of the universe"
+                },
+                {
+                    "name": "The spiral shapes of sunflowers follow a Fibonacci sequence"
+                },
+                {
+                    "name": "Zero is the only number that can't be represented in Roman numerals"
+                }
+            ]
+        },
+        {
+            "name": "book",
+            "children": [
+                {
+                    "name": "Love the smell of books? Bibliosmia is what this passion is known as."
+                },
+                {
+                    "name": "The Term \u201cBookworm\u201d came from insects who would feast on the binding of books"
+                }
+            ]
+        }
+    ],
+    "image_caption": "A close up of text on a white background"
+}

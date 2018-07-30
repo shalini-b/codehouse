@@ -1,0 +1,28 @@
+{
+    "name": "image",
+    "children": [
+        {
+            "name": "sun",
+            "children": [
+                {
+                    "name": "The Sun contains 99.86 percent of the Solar System's known mass, with Jupiter and Saturn making up making up most of the rest."
+                },
+                {
+                    "name": "The energy created by the Sun\\\u2019s core is nuclear fusion"
+                }
+            ]
+        },
+        {
+            "name": "earth",
+            "children": [
+                {
+                    "name": "97% of water on Earth is salty and not usable. 2% is frozen. That leaves us with just 1% of usable water!"
+                },
+                {
+                    "name": "As Earth spins, gravity points toward the center of our planet, and a centrifugal force pushes outward"
+                }
+            ]
+        }
+    ],
+    "image_caption": "A group of objects on a table"
+}
